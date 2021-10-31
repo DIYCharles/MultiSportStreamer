@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Multi Streamer</title>
+  <SCRIPT TYPE="text/javascript" SRC="JavaScripts/Calculations.js"></SCRIPT>
+</head>
+<body>
+  <div id="container">
+    <header> Enter Video Urls
+    	<nav><!-- Insert navigation here --></nav>
+    </header>
+    <div id="main" role="main">
+        
+      
+        <FORM ONSUBMIT="setlinks(); return false;">
+          <select name="sourcenum" id="sourcenum">
+            <option value=2 >2 sources</option>
+            <option value=3 >3 sources</option>
+            <option value=4 >4 sources</option>
+            <option value=5 >5 sources</option>
+            </select>
+          <INPUT TYPE="text" ID="vlink1" value="https://www.youtube.com/embed/Ai-XPus-Jp0">
+          <INPUT TYPE="text" ID="vlink2" value="https://www.youtube.com/embed/szIwW3qLjDQ">
+            <INPUT TYPE="text" ID="vlink3" value="https://www.youtube.com/embed/G5dme56twcs">
+              <INPUT TYPE="text" ID="vlink4" value="https://www.youtube.com/embed/aid_RP4kqAg">
+                <INPUT TYPE="text" ID="vlink5" value="https://www.youtube.com/embed/5qap5aO4i9A">
+          <INPUT TYPE="submit" VALUE="Set links">
+        </FORM>
+        
+        <FORM >
+          <INPUT TYPE="text" ID="vid1 %" value="not working Video Link 1 % vof screen">
+          <INPUT TYPE="submit" VALUE="not working Set view">
+        </FORM>
+
+        <!-- Output field -->
+        <DIV ID="OutputValue1"></DIV>
+        <DIV ID="OutputValue2"></DIV>
+        <DIV ID="OutputValue3"></DIV>
+        <DIV ID="OutputValue4"></DIV>
+
+        <DIV ID="OutputValuep"></DIV>
+        <DIV ID="OutputValues"></DIV>
+
+        <div style="width: 100%;">
+        <container ID="cont1" >
+          <DIV  ID="OutputValue11" ></DIV>    
+         </container>
+
+         <container ID="cont2" >
+          <DIV  ID="OutputValue22" ></DIV>    
+         </container>
+
+         <container ID="cont3" >
+          <DIV  ID="OutputValue33" ></DIV>    
+         </container>
+         <container ID="cont4" >
+          <DIV  ID="OutputValue44" ></DIV>    
+         </container>
+</div>
+
+        </div>
+        <button style="width: 100%; text-align: center; background-color:#c9c9c9; border-color: #313131; border-width: 5; " onclick="openTheWindow()">Click this button to open in borderless mode then press F11</button>
+      <script>
+         function openTheWindow() {
+        var myWindow = window.open("https://diycharles.github.io/webplayer/index.html?","_blank",
+    "toolbar,scrollbars,resizable,top=500,left=500");
+    }
+      </script>
+        
+        
+    </div>
+    <footer>
+      
+    </footer>
+  </div>
+
+<!-- Insert JavaScript here -->
+  
+
+</body>
+</html>
+
+
